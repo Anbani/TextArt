@@ -1,0 +1,27 @@
+{
+  "name": "anbani-textart",
+  "version": "1.0.0",
+  "description": "Text Art Generator by Anbani.ge",
+  "module": "src/TextArt.js",
+  "main": "dist/TextArt.js",
+  "scripts": {
+    "start": "node src/TextArt.js",
+    "build": "webpack --mode=production --node-env=production",
+    "play": "node test/play.mjs",
+    "test": "mocha test/base.cjs && mocha test/base.mjs"
+  },
+  "keywords": [
+    "anbani",
+    "georgian",
+    "ascii",
+    "text",
+    "art",
+    "generator"
+  ],
+  "author": "Giorgi Gachechiladze (@GEORGEGACH)",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "yaml": "^2.1.1",
+    "mocha": "^10.0.0"
+  }
+}
