@@ -6,7 +6,8 @@
   "main": "dist/TextArt.js",
   "scripts": {
     "start": "node src/TextArt.js",
-    "build": "webpack --mode=production --node-env=production",
+    "prebuild": "node utils/yaml-json.mjs",
+    "build": "npm run prebuild && webpack --mode=production --node-env=production",
     "play": "node test/play.mjs",
     "test": "mocha test/base.cjs && mocha test/base.mjs"
   },

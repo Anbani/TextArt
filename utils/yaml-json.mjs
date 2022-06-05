@@ -16,7 +16,7 @@ for (const fp of fontPaths) {
 }
 
 fs.writeFile(
-  'src/fonts/BlockFont/FontDefinitions.js',
+  'src/fonts/BlockFont/FontDefinitions.mjs',
   "export default " + JSON.stringify(fonts),
   err => {
     if (err) {
