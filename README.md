@@ -34,5 +34,5 @@ textArt.fonts['Anbani Block Regular'].contact
 Alternatively you can import `anbani-textart` in `CommonJS` enviroment as well:
 
 ```javascript
-const textArt = require('anbani-text')
+const textArt = require('anbani-textart')
 ```

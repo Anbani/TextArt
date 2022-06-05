@@ -1,6 +1,6 @@
 {
   "name": "anbani-textart",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Text Art Generator by Anbani.ge",
   "module": "src/TextArt.js",
   "main": "dist/TextArt.js",
