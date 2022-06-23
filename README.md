@@ -6,6 +6,13 @@ Text Art generator by Anbani.ge
 
 Play around with the derivative project here ჻ <https://anbani.ge/textart>
 
+Available as an `npx` executable as well!
+```bash
+npx anbani-textart "ჰელოუ" "Anbani Block Small"
+     your text -------^               ^--- optional font key
+```
+![npx demo](https://gach.ml/assets/projects/textart-vid.gif)
+
 ## Installation
 
 ```bash
