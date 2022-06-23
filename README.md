@@ -13,10 +13,34 @@ npx anbani-textart "ჰელოუ" "Anbani Block Small"
 ```
 ![npx demo](https://gach.ml/assets/projects/textart-vid.gif)
 
-## Installation
+
+## EZ Quickstart 
+Create `index.html` file, open in text editor and paste in this code below.
+```html
+<!DOCTYPE html>
+<head>
+    <script src="https://cdn.jsdelivr.net/gh/Anbani/TextArt@main/dist/TextArt.js"></script>
+</head>
+<body>
+    <pre id="art"></pre>
+
+    <script>
+        window.onload = () => {
+            document.querySelector('#art').textContent = window['anbani-textart'].generate(
+                'Anbani Block Regular', 
+                'გამარჯობა'
+            )
+        }
+    </script>
+</body>
+</html>
+```
+Because `<pre/>` tags use `font-family: monospace` fonts by default, the textart will be rendered almost correctly. You could further tweak by adding `line-height: 1.2em` or even better by using `Fira Code` font. 
+
+## Proper Installation
 
 ```bash
-npm i anbani-textart
+npm i anbani-textart --save
 ```
 
 ## Usage
