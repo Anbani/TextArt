@@ -2,6 +2,10 @@
 
 Text Art generator by Anbani.ge
 
+## Demo
+
+Play around with the derivative project here ჻ <https://anbani.ge/textart>
+
 ## Installation
 
 ```bash
@@ -23,6 +27,12 @@ textArt.generate('Anbani Block Regular', 'გამარჯობა')
  ██████     ██ ██████     ██ ███████   ▀▀██ ██ ▀ ██ ██████     ██ 
  ██  ██ ▄▄  ██ ██  ██ ▄▄  ██ ██ █ ██ ▄▄  ██ ██   ██ ██  ██ ▄▄  ██ 
  ██████ ██████ ██████ ██████ ██   ██ ██████ ██   ██ ██████ ██████ 
+
+textArt.generate('Anbani Block Small', 'მაინც გავფრინდებით')
+
+▀▀█  ▀█ █▀█ █▀▀ █▝█   ▝█   ▀█ █▀█ ▛▛█ █▀▀▀ █▀█ █▀▀ █▀█ █▀█ ▝▆  █▀█ █▜▛█ 
+█▀█   █ █ █ █▀█ █▝█   █▀█   █  ▝█ ▙▌█ █▜▛█ █ █ █▀█ █▄█   █ █▀█ █ █ █▐▌█ 
+█▄█ █▄█ █ █ █▄█ █▄█   █▄█ █▄█ █▄█ ▆▄█ █▝▘█ █ █ █▄█ █▄▄ █▄█ █▄█ █ █ █▟▌█ 
 
 textArt.fonts['Anbani Block Regular'].author
 // Giorgi Gachechiladze

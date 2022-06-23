@@ -7,7 +7,78 @@ author:
     name: "Giorgi Gachechiladze"
     contact: "https://github.com/georgegach"
 
+# ▀ █ ▝ ▆ ▜ ▛ ▗ ▟ ▄ ▌ ▐ ▘ ▙ ▖
 font : 
+
+  - letter: "1"
+    art: |+1
+        
+                ▟█
+                 █
+                 █
+
+  - letter: "2"
+    art: |+1
+        
+                █▀█
+                 ▟▛
+                ▟█▄
+                
+  - letter: "3"
+    art: |+1
+        
+                ▀▀█
+                 ▀█
+                ▄▄█ 
+
+  - letter: "4"
+    art: |+1
+        
+                █ ▄
+                █▄█
+                  █ 
+  
+  - letter: "5"
+    art: |+1
+
+                █▀▀
+                ▀▀█
+                ▄▄█ 
+
+  - letter: "6"
+    art: |+1
+        
+                █▀▀
+                █▀█
+                █▄█ 
+
+  - letter: "7"
+    art: |+1
+        
+                █▀█
+                 ▟▛
+                ▟▛
+
+  - letter: "8"
+    art: |+1
+        
+                █▀█
+                █▀█
+                █▄█ 
+
+  - letter: "9"
+    art: |+1
+        
+                █▀█
+                ▀▀█
+                ▄▄█ 
+
+  - letter: "0"
+    art: |+1
+        
+                █▀█
+                █ █
+                █▄█ 
 
   - letter: "!"
     art: |+1

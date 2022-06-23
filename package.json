@@ -9,7 +9,8 @@
     "prebuild": "node utils/yaml-json.mjs",
     "build": "npm run prebuild && webpack --mode=production --node-env=production",
     "play": "node test/play.mjs",
-    "test": "mocha test/base.cjs && mocha test/base.mjs"
+    "test": "mocha test/base.cjs && mocha test/base.mjs",
+    "release" : "npm publish"
   },
   "keywords": [
     "anbani",
