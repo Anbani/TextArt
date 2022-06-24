@@ -15,7 +15,7 @@ npx anbani-textart "ჰელოუ" "Anbani Block Small"
 
 
 ## EZ Quickstart 
-Create `index.html` file, open in text editor and paste in this code below.
+Play with this fiddle <https://jsfiddle.net/georgegach/g96dks5p/58/> or create `index.html` file, open in text editor and paste in this code below.
 ```html
 <!DOCTYPE html>
 <head>
