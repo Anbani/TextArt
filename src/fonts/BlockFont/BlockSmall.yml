@@ -2,7 +2,7 @@
 title: "Anbani Block Small"
 height: 3
 
-license: "GPL-2"
+license: "GPL-3"
 author: 
     name: "Giorgi Gachechiladze"
     contact: "https://github.com/georgegach"
@@ -123,252 +123,490 @@ font :
                 
                 
 
-  - letter: "ა"
+  - letter: "Ა"
     art: |+1
         
-                 ▀█
+                 ▀▙
                   █
                 █▄█
                   
-  - letter: "ბ"
+  - letter: "Ბ"
     art: |+1
         
                 ▝▆
                 █▀█
                 █▄█    
                 
-  - letter: "გ"
+  - letter: "Გ"
     art: |+1
         
-                ▝█
+                ▝▜▌  
                 █▀█
                 █▄█ 
                 
-  - letter: "დ"
+  - letter: "Დ"
     art: |+1
         
                 █▀█
                 █▄█
                 █▄▄ 
         
-  - letter: "ე"
+  - letter: "Ე"
     art: |+1
         
                 █▀█
                   █
                 █▄█ 
         
-  - letter: "ვ"
+  - letter: "Ვ"
     art: |+1
         
                 █▀█
                  ▝█
                 █▄█ 
         
-  - letter: "ზ"
+  - letter: "Ზ"
     art: |+1
         
                 █▀█
                 ▀█▀█
                  █▄█ 
         
-  - letter: "თ"
+  - letter: "Თ"
     art: |+1
 
                 █▜▛█
                 █▐▌█
                 █▟▌█
         
-  - letter: "ი"
+  - letter: "Ი"
     art: |+1
         
                 █▀█
                 █ █
                 █ █
         
-  - letter: "კ"
+  - letter: "Კ"
     art: |+1
         
                   █
                  ▝█
                 █▄█ 
                   
-  - letter: "ლ"
+  - letter: "Ლ"
     art: |+1
         
                 █▀█
                 █ █
                 █▄▄  
                   
-  - letter: "მ"
+  - letter: "Მ"
     art: |+1
         
                 ▀▀█
                 █▀█
                 █▄█ 
         
-  - letter: "ნ"
+  - letter: "Ნ"
     art: |+1
         
                 █▀▀
                 █▀█
                 █▄█ 
         
-  - letter: "ო"
+  - letter: "Ო"
     art: |+1
         
                 █▜▛█
                 █▝▘█
                 █  █
         
-  - letter: "პ"
+  - letter: "Პ"
     art: |+1
         
                  ▀▆
                  ▝█
                 █▄█
         
-  - letter: "ჟ"
+  - letter: "Ჟ"
     art: |+1
         
                  ▗▟█
                  ▗▌█
                 █▄▄█
 
-  - letter: "რ"
+  - letter: "Რ"
     art: |+1
         
                 █▀▀▀
                 █▜▛█
                 █▝▘█
         
-  - letter: "ს"
+  - letter: "Ს"
     art: |+1
         
                 █
                 █ ▄
                 █▄█ 
         
-  - letter: "ტ"
+  - letter: "Ტ"
     art: |+1
         
                 ▄█▄
                 █ █
                 █▄█ 
         
-  - letter: "უ"
+  - letter: "Უ"
     art: |+1
         
                 ▀▛█
                   █
                 █▄█
                   
-  - letter: "ფ"
+  - letter: "Ფ"
     art: |+1
         
                 ▛▛█
                 ▙▌█
                 ▆▄█
         
-  - letter: "ქ"
+  - letter: "Ქ"
     art: |+1
         
                  ▄█
                  ▘█
                 █▄█ 
         
-  - letter: "ღ"
+  - letter: "Ღ"
     art: |+1
         
                 █▜▛█
                 █▝▘█
                 █▄▄▄ 
         
-  - letter: "ყ"
+  - letter: "Ყ"
     art: |+1
         
                 █ █
                 ▀▀█
                 █▄█ 
                   
-  - letter: "შ"
+  - letter: "Შ"
     art: |+1
         
                 ▛▛█
                 ▄▄█
                 █▄█
         
-  - letter: "ჩ"
+  - letter: "Ჩ"
     art: |+1
         
                 █▜▌
                 █▟▙
                 █ █
         
-  - letter: "ც"
+  - letter: "Ც"
     art: |+1
         
                 █▝█
                 █▝█
                 █▄█ 
         
-  - letter: "ძ"
+  - letter: "Ძ"
     art: |+1
         
                   █
                 █▀█
                 █▄█
         
-  - letter: "წ"
+  - letter: "Წ"
     art: |+1
         
                 █▜▜
                 █▄▄
                 █▄█
         
-  - letter: "ჭ"
+  - letter: "Ჭ"
     art: |+1
         
                 ▄▄█
                 █▄█
                 ▆▄█
         
-  - letter: "ხ"
+  - letter: "Ხ"
     art: |+1
         
                 █
                 █▀█
                 █▄█
         
-  - letter: "ჯ"
+  - letter: "Ჯ"
     art: |+1
         
                 ▄█▄
                  ▀▆
                 █▄█
         
-  - letter: "ჰ"
+  - letter: "Ჰ"
     art: |+1
         
                  ▗█
                  ▗█
                 █▄█
+
+
+# ▀ █ ▝ ▆ ▜ ▛ ▗ ▟ ▄ ▌ ▐ ▘ ▙ ▖
+
+
+  - letter: "Ⴀ"
+    art: |+1
         
-  - letter: "a"
+                ▀█▀▀
+                 █
+                 █▄█
+                  
+  - letter: "Ⴁ"
+    art: |+1
+        
+                █ █
+                ▀▀█
+                  █▄ 
+                
+  - letter: "Ⴂ"
+    art: |+1
+        
+                █▀█
+                  █
+                  █▄ 
+                
+  - letter: "Ⴃ"
+    art: |+1
+
+                ▀█▀
+                █▀█
+                █▄█  
+        
+  - letter: "Ⴄ"
+    art: |+1
+        
+                █▀█
+                  █
+                  █ 
+        
+  - letter: "Ⴅ"
+    art: |+1
+        
+                █▀█
+                  █▜
+                  █ 
+        
+  - letter: "Ⴆ"
+    art: |+1
+        
+                ▀█
+                 █▀█
+                 █▄█ 
+        
+  - letter: "Ⴇ"
+    art: |+1
+
+                █▀█ 
+                █ █▜
+                █▄█ 
+        
+  - letter: "Ⴈ"
+    art: |+1
+        
+                ▀▀█
+                  █
+                  █
+        
+  - letter: "Ⴉ"
+    art: |+1
+        
+                 █▄▄
+                 █ █
+                 ▀▀█ 
+                  
+  - letter: "Ⴊ"
+    art: |+1
+        
+                ▛█
+                ▌█▀█
+                 █▄█ 
+                  
+  - letter: "Ⴋ"
+    art: |+1
+        
+                ▀▀█
+                █▀█▜
+                █▄█▐
+        
+  - letter: "Ⴌ"
+    art: |+1
+        
+                █▀▀
+                █▀█
+                █ █ 
+        
+  - letter: "Ⴍ"
+    art: |+1
+
+                █▀█
+                █ █
+                █▄█▟ 
+        
+  - letter: "Ⴎ"
+    art: |+1
+
+               ▀█ █
+                █ █
+                █▄█
+        
+  - letter: "Ⴏ"
+    art: |+1
+
+               ▀█ █
+                █▄█
+                  █
+
+  - letter: "Ⴐ"
+    art: |+1
+        
+                  █
+                  █▜
+                █▄█
+        
+  - letter: "Ⴑ"
+    art: |+1
+        
+                █
+                █ ▄
+                █▄█ 
+        
+  - letter: "Ⴒ"
+    art: |+1
+        
+                 █▀█
+                 █▄█ 
+                 █▄▄
+        
+  - letter: "Ⴓ"
+    art: |+1
+
+                █▀█
+                █ █
+                █▄█▜ 
+                  
+  - letter: "Ⴔ"
+    art: |+1
+        
+                █▜▛█
+                █▟▙█
+                 ▐▌ 
+        
+  - letter: "Ⴕ"
+    art: |+1
+        
+                  █
+                 ▀█▀
+                  █ 
+        
+  - letter: "Ⴖ"
+    art: |+1
+        
+                █▀█
+                █ █
+                █ █ 
+        
+  - letter: "Ⴗ"
+    art: |+1
+        
+                █ █
+                ▀▀█
+                  █ 
+                  
+  - letter: "Ⴘ"
+    art: |+1
+        
+                █ █
+                ▀▀█
+                █▄█ 
+        
+  - letter: "Ⴙ"
+    art: |+1
+        
+                █
+                █▀█
+                █ █
+        
+  - letter: "Ⴚ"
+    art: |+1
+        
+                █▀▀
+                █ █
+                █▄█ 
+        
+  - letter: "Ⴛ"
+    art: |+1
+        
+                  █
+                █▀█▜
+                █▄█▐
+        
+  - letter: "Ⴜ"
+    art: |+1
+        
+                █▀█
+                █▀▀
+                █▀
+        
+  - letter: "Ⴝ"
+    art: |+1
+        
+                █▀█
+                █▄▄
+                ▆▄█
+        
+  - letter: "Ⴞ"
+    art: |+1
+        
+                █ █
+                █▀▀
+                █▄▄
+        
+  - letter: "Ⴟ"
+    art: |+1
+        
+               ▀▛▀▜
+                ▝█▘
+                ▟▀▙
+        
+  - letter: "Ⴠ"
+    art: |+1
+        
+               ▛█
+               ▌█ ▄
+                █▄█ 
+
+# ▀ █ ▝ ▆ ▜ ▛ ▗ ▟ ▄ ▌ ▐ ▘ ▙ ▖
+
+        
+  - letter: "A"
     art: |+1
         
                 ▟▀▙
                 █▄█
                 █ █    
         
-  - letter: "b"
+  - letter: "B"
     art: |+1
         
                 █▀▙
                 █▀▙
                 █▄▛    
         
-  - letter: "c"
+  - letter: "C"
     art: |+1
         
                 █▀█
@@ -376,7 +614,7 @@ font :
                 █▄█   
         
           
-  - letter: "d"
+  - letter: "D"
     art: |+1
         
                 █▀▙
@@ -384,154 +622,154 @@ font :
                 █▄▛     
                   
            
-  - letter: "e"
+  - letter: "E"
     art: |+1
         
                 █▀▀
                 █▀
                 █▄▄  
                
-  - letter: "f"
+  - letter: "F"
     art: |+1
         
                 █▀▀
                 █▀
                 █    
                    
-  - letter: "g"
+  - letter: "G"
     art: |+1
         
                 █▀▀
                 █▝█
                 █▄█     
                    
-  - letter: "h"
+  - letter: "H"
     art: |+1
         
                 █ █
                 █▀█
                 █ █   
                    
-  - letter: "i"
+  - letter: "I"
     art: |+1
         
                 █ 
                 █
                 █   
              
-  - letter: "j"
+  - letter: "J"
     art: |+1
         
                   █
                   █
                 █▄█  
              
-  - letter: "k"
+  - letter: "K"
     art: |+1
         
                 █ █
                 █▀▙
                 █ █    
                    
-  - letter: "l"
+  - letter: "L"
     art: |+1
         
                 █
                 █
                 █▄▄  
              
-  - letter: "m"
+  - letter: "M"
     art: |+1
         
                 █▖▗█
                 █▜▛█
                 █  █
                    
-  - letter: "n"
+  - letter: "N"
     art: |+1
         
                 █▖█
                 █▜█
                 █ █
            
-  - letter: "o"
+  - letter: "O"
     art: |+1
         
                 █▀█
                 █ █
                 █▄█    
                    
-  - letter: "p"
+  - letter: "P"
     art: |+1
         
                 █▀█
                 █▄█
                 █     
                    
-  - letter: "q"
+  - letter: "Q"
     art: |+1
         
                 █▀█
                 █▗█
                 █▄█ 
      
-  - letter: "r"
+  - letter: "R"
     art: |+1
         
                 █▀█
                 █▄▛
                 █ █   
             
-  - letter: "s"
+  - letter: "S"
     art: |+1
         
                 █▀█
                 █▄▄
                 ▆▄█      
               
-  - letter: "t"
+  - letter: "T"
     art: |+1
         
                 ▀█▀
                  █
                  █  
             
-  - letter: "u"
+  - letter: "U"
     art: |+1
         
                 █ █
                 █ █
                 █▄█  
                    
-  - letter: "v"
+  - letter: "V"
     art: |+1
         
                 █ █
                 █ █
                 ▜▄▛ 
              
-  - letter: "w"
+  - letter: "W"
     art: |+1
         
                 █   █
                 █ █ █
                 ▜▄▀▄▛   
               
-  - letter: "x"
+  - letter: "X"
     art: |+1
         
                 ▙ ▟
                 ▝█▘
                 ▟▀▙
                    
-  - letter: "y"
+  - letter: "Y"
     art: |+1
         
                 █ █
                 ▜▄▛
                  █
               
-  - letter: "z"
+  - letter: "Z"
     art: |+1
         
                 ▀▀█

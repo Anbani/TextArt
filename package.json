@@ -1,6 +1,6 @@
 {
   "name": "anbani-textart",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Text Art Generator by Anbani.ge",
   "module": "src/TextArt.js",
   "main": "dist/TextArt.js",
@@ -9,11 +9,13 @@
     "prebuild": "node utils/yaml-json.mjs",
     "build": "npm run prebuild && webpack --mode=production --node-env=production",
     "play": "node test/play.mjs",
+    "print": "node test/print.mjs",
     "test": "mocha test/base.cjs && mocha test/base.mjs",
     "release": "npm publish"
   },
-  "bin" : {
-    "anbani-textart" : "bin/app.cjs"
+  "bin": {
+    "anbani-textart": "bin/app.cjs",
+    "print": "bin/print.cjs"
   },
   "keywords": [
     "anbani",
