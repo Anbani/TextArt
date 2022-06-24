@@ -16,5 +16,5 @@ for (let key of textArt.keys){
   console.log(textArt.generate(key, "ჁჂჃჄჅ჆Ⴧ჈჉჊"))
   console.log('\n')
   console.log(textArt.generate(key, "1234567890"))
-  console.log(textArt.generate(key, "!?_.,-/"))
+  console.log(textArt.generate(key, "჻!?_.,-/"))
 }
