@@ -1,13 +1,13 @@
 {
   "name": "anbani-textart",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Text Art Generator by Anbani.ge",
   "module": "src/TextArt.js",
   "main": "dist/TextArt.js",
   "scripts": {
     "start": "node src/TextArt.js",
     "prebuild": "node utils/yaml-json.mjs",
-    "build": "npm run prebuild && webpack --mode=production --node-env=production",
+    "build": "npm run prebuild && webpack --mode=production --node-env=production && npm run print",
     "play": "node test/play.mjs",
     "print": "node test/print.mjs",
     "test": "mocha test/base.cjs && mocha test/base.mjs",

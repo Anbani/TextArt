@@ -1,8 +1,7 @@
 import AbstractFont from '../../lib/AbstractFont.mjs';
-import fonts from "./FontDefinitions.mjs"
 
 export default class BlockFont extends AbstractFont {
-    constructor(fontKey) {
+    constructor(fontKey, fonts) {
         super();
 
         this.fontKey = fontKey;
@@ -37,7 +36,7 @@ export default class BlockFont extends AbstractFont {
     }
 
 
-    generate(text) {
+    generate(text, separator=' ') {
         text = text.toUpperCase()
         const letters = text.split('').map(
             (l) => l in this.font
@@ -48,7 +47,7 @@ export default class BlockFont extends AbstractFont {
         let wordArt = '';
         for (let j = 0; j < letters[0].length; j++) {
             for (let i = 0; i < letters.length; i++) {
-                wordArt += letters[i][j] + ' ';
+                wordArt += letters[i][j] + separator;
             }
             wordArt += '\n';
         }
