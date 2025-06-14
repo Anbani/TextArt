@@ -6,6 +6,8 @@ import LineFontDefs from "../fonts/LineFont/LineFontDefinitions.mjs"
 
 
 const fonts = [
+  new BlockFont(`Anbani Braille`, BlockFontDefs),
+  new BlockFont(`Anbani Braille Small`, BlockFontDefs),
   new BlockFont(`Anbani Block Regular`, BlockFontDefs),
   new BlockFont(`Anbani Block Small`, BlockFontDefs),
   new LineFont(`Anbani Lines Double`, LineFontDefs),

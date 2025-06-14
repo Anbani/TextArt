@@ -25,6 +25,8 @@ function convert_yaml_to_json(savePath, fontPaths) {
 convert_yaml_to_json(
   'src/fonts/BlockFont/BlockFontDefinitions.mjs',
   [
+    "src/fonts/BlockFont/BlockBraille.yml",
+    "src/fonts/BlockFont/BlockBrailleSmall.yml",
     "src/fonts/BlockFont/BlockRegular.yml",
     "src/fonts/BlockFont/BlockRounded.yml",
     "src/fonts/BlockFont/BlockSmall.yml",
