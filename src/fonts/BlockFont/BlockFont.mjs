@@ -52,6 +52,14 @@ export default class BlockFont extends AbstractFont {
             wordArt += '\n';
         }
 
+        // Braille fonts mix braille glyphs with regular ASCII spaces, whose advance
+        // width differs from a braille cell — so columns drift out of alignment in
+        // monospace output. Swap every space for the blank braille cell (U+2800,
+        // same width as a dotted cell) so all columns line up.
+        if (/[⠁-⣿]/.test(wordArt)) {
+            wordArt = wordArt.replace(/ /g, '⠀');
+        }
+
         return wordArt;
     }
 };

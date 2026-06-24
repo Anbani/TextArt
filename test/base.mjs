@@ -28,5 +28,17 @@ describe('ESM module testing', function () {
     }
   });
 
-  
+  describe('Braille alignment', function () {
+    it('braille fonts emit the blank braille cell instead of ASCII spaces', function () {
+      const out = textArt.generate('Anbani Braille', 'ანბანი');
+      assert.ok(/[⠁-⣿]/.test(out), 'expected braille glyphs in the output');
+      assert.ok(!/ /.test(out), 'expected no ASCII spaces in braille output');
+    });
+
+    it('non-braille fonts keep ASCII spaces', function () {
+      const out = textArt.generate('Anbani Block Regular', 'ა ბ');
+      assert.ok(/ /.test(out), 'expected ASCII spaces in block output');
+    });
+  });
+
 });
