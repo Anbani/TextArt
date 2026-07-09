@@ -49,7 +49,13 @@ npm i anbani-textart --save
 import textArt from 'anbani-textart';
 
 textArt.keys
-// [ 'Anbani Block Regular', 'Anbani Block Small', 'Anbani Sample Style' ]
+// [
+//   'Anbani Braille',      'Anbani Braille Small',
+//   'Anbani Block Regular', 'Anbani Block Small',
+//   'Anbani Block Shadow',  'Anbani Block Shaded', 'Anbani Block Dotted',
+//   'Anbani Lines Double',  'Anbani Lines Thin',   'Anbani Lines Light',
+//   'Anbani Sample Style'
+// ]
 
 textArt.generate('Anbani Block Regular', 'გამარჯობა')
 
@@ -64,6 +70,31 @@ textArt.generate('Anbani Block Small', 'მაინც გავფრინდ
 ▀▀█  ▀█ █▀█ █▀▀ █▝█   ▝█   ▀█ █▀█ ▛▛█ █▀▀▀ █▀█ █▀▀ █▀█ █▀█ ▝▆  █▀█ █▜▛█ 
 █▀█   █ █ █ █▀█ █▝█   █▀█   █  ▝█ ▙▌█ █▜▛█ █ █ █▀█ █▄█   █ █▀█ █ █ █▐▌█ 
 █▄█ █▄█ █ █ █▄█ █▄█   █▄█ █▄█ █▄█ ▆▄█ █▝▘█ █ █ █▄█ █▄▄ █▄█ █▄█ █ █ █▟▌█ 
+
+textArt.generate('Anbani Block Shadow', 'ანბანი')
+
+ ████▄  ██████   █▄▄     ████▄  ██████  ██████  
+  ░░██░ ██░░░░░   ██░     ░░██░ ██░░░░░ ██░░██░ 
+    ██░ ██████  ██████      ██░ ██████  ██░ ██░ 
+▄▄  ██░ ██░░██░ ██░░██░ ▄▄  ██░ ██░░██░ ██░ ██░ 
+██████░ ██████░ ██████░ ██████░ ██████░ ██░ ██░ 
+ ░░░░░░  ░░░░░░  ░░░░░░  ░░░░░░  ░░░░░░  ░░  ░░ 
+
+textArt.generate('Anbani Block Shaded', 'ანბანი')
+
+ ░░░░░ ░░░░░░  ░░░    ░░░░░ ░░░░░░ ░░░░░░ 
+    ▒▒ ▒▒       ▒▒       ▒▒ ▒▒     ▒▒  ▒▒ 
+    ▓▓ ▓▓▓▓▓▓ ▓▓▓▓▓▓     ▓▓ ▓▓▓▓▓▓ ▓▓  ▓▓ 
+▓▓  ▓▓ ▓▓  ▓▓ ▓▓  ▓▓ ▓▓  ▓▓ ▓▓  ▓▓ ▓▓  ▓▓ 
+██████ ██████ ██████ ██████ ██████ ██  ██ 
+
+textArt.generate('Anbani Block Dotted', 'ანბანი')
+
+ ●●●●· ●●●●●●  ●··    ●●●●· ●●●●●● ●●●●●● 
+    ●● ●●       ●●       ●● ●●     ●●  ●● 
+    ●● ●●●●●● ●●●●●●     ●● ●●●●●● ●●  ●● 
+··  ●● ●●  ●● ●●  ●● ··  ●● ●●  ●● ●●  ●● 
+●●●●●● ●●●●●● ●●●●●● ●●●●●● ●●●●●● ●●  ●● 
 
 textArt.fonts['Anbani Block Regular'].author
 // Giorgi Gachechiladze
