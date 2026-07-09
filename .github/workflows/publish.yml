@@ -1,0 +1,38 @@
+# Publishes to npm when a GitHub Release is published.
+#
+# Uses npm Trusted Publishing (OIDC) — no token/secret to manage or rotate.
+# One-time setup:
+#   1. On https://www.npmjs.com/package/anbani-textart/access add a trusted publisher:
+#      GitHub repository "Anbani/TextArt", workflow "publish.yml",
+#      environment left blank.
+#   2. Create a GitHub Release to trigger this workflow.
+#
+# `npm publish` runs the `prepublishOnly` script first, which rebuilds the
+# dist/ bundle and runs the test suite, so a stale bundle can never ship.
+# Trusted publishing also attaches build provenance automatically.
+name: publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write   # required for trusted publishing (OIDC)
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+
+      # Node 20 ships npm 10; OIDC trusted publishing needs npm >= 11.5.1.
+      - run: npm install -g npm@latest
+
+      - run: npm install
+
+      - run: npm publish

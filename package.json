@@ -11,6 +11,7 @@
     "play": "node test/play.mjs",
     "print": "node test/print.mjs",
     "test": "mocha test/base.cjs && mocha test/base.mjs",
+    "prepublishOnly": "npm run build && npm test",
     "release": "npm publish"
   },
   "bin": {

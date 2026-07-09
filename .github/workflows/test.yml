@@ -1,0 +1,37 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ["18", "20", "22"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # The committed package-lock.json predates the current version, so `npm ci`
+      # would refuse to install. devDependencies are all we need here.
+      - name: Install
+        run: npm install
+
+      # test/base.cjs imports dist/TextArt.js, so the bundle must exist and be
+      # current before mocha runs — otherwise the CommonJS suite tests a stale build.
+      - name: Build UMD bundle
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+      # A committed dist/ that disagrees with src/ ships broken art to the CDN,
+      # which serves dist/TextArt.js straight off the default branch.
+      - name: Verify committed dist/ and font definitions are up to date
+        run: git diff --exit-code -- dist src/fonts
