@@ -2,6 +2,12 @@
   "name": "anbani-textart",
   "version": "1.7.0",
   "description": "Text Art Generator by Anbani.ge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anbani/TextArt.git"
+  },
+  "homepage": "https://anbani.ge/textart",
+  "bugs": "https://github.com/Anbani/TextArt/issues",
   "module": "src/TextArt.js",
   "main": "dist/TextArt.js",
   "scripts": {
