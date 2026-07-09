@@ -29,14 +29,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # OIDC trusted publishing needs npm >= 11.5.1. Node 24 bundles npm 11.16,
+      # so take it from the runtime rather than self-upgrading npm in place —
+      # `npm install -g npm@latest` overwrites the running npm and leaves it
+      # unable to resolve its own deps ("Cannot find module 'sigstore'").
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
           registry-url: "https://registry.npmjs.org"
-
-      # Node 22 ships npm 10; OIDC trusted publishing needs npm >= 11.5.1.
-      # npm 12 requires Node >= 22.22, so the runner must not be pinned below that.
-      - run: npm install -g npm@latest
 
       - run: npm install
 
