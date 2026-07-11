@@ -41,4 +41,16 @@ describe('ESM module testing', function () {
     });
   });
 
+  describe('Cross-Stitch font', function () {
+    it('is available and renders supported scripts and punctuation', function () {
+      assert.ok(textArt.keys.includes('Anbani Cross-Stitch'));
+
+      for (const glyph of 'აႠA1჻/!?._-') {
+        const out = textArt.generate('Anbani Cross-Stitch', glyph);
+        assert.match(out, /[×·]/, `expected stitches for "${glyph}"`);
+        assert.strictEqual(out.split('\n').length - 1, 5);
+      }
+    });
+  });
+
 });

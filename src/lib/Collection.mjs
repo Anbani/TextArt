@@ -13,6 +13,7 @@ const fonts = [
   new BlockFont(`Anbani Block Shadow`, BlockFontDefs),
   new BlockFont(`Anbani Block Shaded`, BlockFontDefs),
   new BlockFont(`Anbani Block Dotted`, BlockFontDefs),
+  new BlockFont(`Anbani Cross-Stitch`, BlockFontDefs),
   new LineFont(`Anbani Lines Double`, LineFontDefs),
   new LineFont(`Anbani Lines Thin`, LineFontDefs),
   new LineFont(`Anbani Lines Light`, LineFontDefs),

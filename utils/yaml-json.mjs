@@ -33,6 +33,7 @@ convert_yaml_to_json(
     "src/fonts/BlockFont/BlockShadow.yml",
     "src/fonts/BlockFont/BlockShaded.yml",
     "src/fonts/BlockFont/BlockDotted.yml",
+    "src/fonts/BlockFont/BlockCrossStitch.yml",
   ]
 )
 

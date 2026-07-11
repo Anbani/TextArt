@@ -52,6 +52,19 @@ const dotted = (grid) =>
         })
     );
 
+// Embroidery-inspired rendering: dense block pixels become full cross
+// stitches, while partial block pixels become small guide stitches.
+const crossStitch = (grid) =>
+    grid.map((row) =>
+        row.map((ch) => {
+            if (ch === ' ') return ' ';
+            if (HEAVY.has(ch)) return '×';
+            if (LIGHT.has(ch)) return '·';
+            console.warn(`crossStitch: unexpected char "${ch}" -> ×`);
+            return '×';
+        })
+    );
+
 // Rows are padded to a uniform width: BlockFont.buildLetter measures the
 // widest row with a lexicographic sort, which misreads ragged widths.
 function toYaml(title, height, glyphs) {
@@ -91,3 +104,4 @@ function build(fileName, title, height, transform) {
 build('BlockShadow.yml', 'Anbani Block Shadow', H + 1, shadow);
 build('BlockShaded.yml', 'Anbani Block Shaded', H, shaded);
 build('BlockDotted.yml', 'Anbani Block Dotted', H, dotted);
+build('BlockCrossStitch.yml', 'Anbani Cross-Stitch', H, crossStitch);

@@ -53,6 +53,7 @@ textArt.keys
 //   'Anbani Braille',      'Anbani Braille Small',
 //   'Anbani Block Regular', 'Anbani Block Small',
 //   'Anbani Block Shadow',  'Anbani Block Shaded', 'Anbani Block Dotted',
+//   'Anbani Cross-Stitch',
 //   'Anbani Lines Double',  'Anbani Lines Thin',   'Anbani Lines Light',
 //   'Anbani Sample Style'
 // ]
@@ -95,6 +96,14 @@ textArt.generate('Anbani Block Dotted', 'ანბანი')
     ●● ●●●●●● ●●●●●●     ●● ●●●●●● ●●  ●● 
 ··  ●● ●●  ●● ●●  ●● ··  ●● ●●  ●● ●●  ●● 
 ●●●●●● ●●●●●● ●●●●●● ●●●●●● ●●●●●● ●●  ●● 
+
+textArt.generate('Anbani Cross-Stitch', 'ანბანი')
+
+ ××××· ××××××  ×··    ××××· ×××××× ××××××
+    ×× ××       ××       ×× ××     ××  ××
+    ×× ×××××× ××××××     ×× ×××××× ××  ××
+··  ×× ××  ×× ××  ×× ··  ×× ××  ×× ××  ××
+×××××× ×××××× ×××××× ×××××× ×××××× ××  ××
 
 textArt.fonts['Anbani Block Regular'].author
 // Giorgi Gachechiladze
